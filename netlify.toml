@@ -4,3 +4,6 @@
 
 [build.environment]
   NODE_VERSION = "18"
+  NPM_FLAGS = "--legacy-peer-deps"
+  NETLIFY_USE_YARN = "false"
+  NETLIFY_USE_PNPM = "false"
